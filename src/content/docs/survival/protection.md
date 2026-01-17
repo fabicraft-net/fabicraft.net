@@ -61,9 +61,9 @@ Alla listattuna kyseiset oikeudet:
 | Oikeus | Kuvaus | Komento |
 | --- | --- | --- |
 | Hallinnointi | Antaa oikeuden hallita tontin asetuksia ja luoda alitontteja | `/permissiontrust <pelaaja>` |
-| Rakentaja | Antaa oikeuden rakentaa tontilla | `/trust <pelaaja>`̣ |
-| Varastonhoitaja | Antaa oikeuden avata arkkuja ja muita tavaralaatikoita | `/containertrust <pelaaja>`̣ |
-| Pääsy | Antaa oikeuden käyttää ovia, nappuloita, vipuja yms. | `/accessortrust <pelaaja>`̣ |
+| Rakentaja | Antaa oikeuden rakentaa tontilla | `/trust <pelaaja>` |
+| Varastonhoitaja | Antaa oikeuden avata arkkuja ja muita tavaralaatikoita | `/containertrust <pelaaja>` |
+| Pääsy | Antaa oikeuden käyttää ovia, nappuloita, vipuja yms. | `/accessortrust <pelaaja>` |
 
 Saat poistettua pelaajalta oikeudet komennolla `/untrust <pelaaja>`.
 
