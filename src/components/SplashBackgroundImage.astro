@@ -1,0 +1,20 @@
+---
+import backgroundImage from "../assets/banner.png";
+---
+
+<img class="splashBackgroundImage" src={backgroundImage.src} alt="" />
+
+<style>
+    .splashBackgroundImage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -999;
+        mask-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0)
+        );
+    }
+</style>
