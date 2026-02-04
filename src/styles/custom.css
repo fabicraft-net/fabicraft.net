@@ -6,3 +6,7 @@
 .discord {
     height: 32rem;
 }
+
+.site-title img {
+    image-rendering: pixelated;
+}
