@@ -45,7 +45,7 @@ Seuraavaksi klikkaa palikkaa, johon haluat kulman siirtyvän. Valmis :)
 ![claim-resize-3](../../../assets/docs/survival/protection/claim-resize-3.png)
 
 :::note
-Kulmaa siirrettäessä kultalapion täytyy olla koko ajan kädessä tai valinta nollaantuu.
+Kulmaa siirrettäessä kultalapion täytyy olla koko ajan kädessä tai valinta nollaantuu
 :::
 
 Tontin laajentaminen katsottuun suuntaan onnistuu myös komennolla `/extendclaim <määrä>`.
@@ -55,8 +55,8 @@ Tontin laajentaminen katsottuun suuntaan onnistuu myös komennolla `/extendclaim
 Voit poistaa tontin seisomalla sen sisällä ja kirjoittamalla komennon `/abandonclaim`.
 Mikäli haluat poistaa kaikki tonttisi, voit tehdä sen kirjoittamalla `/abandonallclaims`.
 
-:::note
-Omistettujen tonttien listan näkee komennolla `/claimslist`.
+:::tip
+Omistettujen tonttien listan näkee komennolla `/claimslist`
 :::
 ## Oikeuksien jakaminen
 
@@ -75,7 +75,7 @@ Alla listattuna kyseiset oikeudet:
 Saat poistettua pelaajalta oikeudet komennolla `/untrust <pelaaja>`.
 
 :::note 
-Voit määrittää kaikkien pelaajien oikeuksia pistämällä `#public` aikaisempien komentojen `<pelaaja>` kohtaan.
+Voit määrittää kaikkien pelaajien oikeuksia pistämällä `#public` komennon `<pelaaja>` kohtaan
 :::
 
 ## Alitontit
@@ -104,7 +104,7 @@ Pääset takaisin tavalliseen tonttitilaan kirjoittamalla komennon `/claim`.
 
 ## Ryhmät
 
-Sen sijaan, että määrittää jokaisen pelaajan oikeudet yksitellen jokaiselle tontille, voit luoda ryhmiä joille voi määrittää oikeudet. Ryhmät ovat pelaaja kohteisia, mutta hallinointi oikeudelliset voivat nähdä ja käyttää tontin omistajan ryhmiä oikeuksien antamisessa.
+Sen sijaan, että määrittää jokaisen pelaajan oikeudet yksitellen jokaiselle tontille, voit luoda ryhmiä, joille voi määrittää oikeudet. Ryhmät ovat pelaaja kohteisia, mutta hallinointi oikeudelliset voivat nähdä ja käyttää tontin omistajan ryhmiä oikeuksien antamisessa.
 
 Pelaajia saa lisättyä ryhmään komennolla `/group <ryhmä> add <pelaaja1> <pelaaja2>`. Komennolla saa lisättyä yhden tai useamman pelaajan kerralla. Jos ryhmää ei ole olemassa, se luodaan automaattisesti.
 
