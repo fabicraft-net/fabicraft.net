@@ -7,7 +7,7 @@ Omat rakennelmat kannattaa aina suojata, jotta muut pelaajat eivät pääse tuho
 Suojaaminen onnistuu tonttien avulla.
 
 Pelaajalla on alussa **100 tonttipalikkaa**.
-Tonttipalikoita saa lisää pelaamalla FabiCraftin survivalissa (100 per tunti). Vapaiden tonttipalikoiden määrä voi tarkkailla komennolla `/claimblocks`.
+Tonttipalikoita saa lisää pelaamalla FabiCraftin survivalissa (100 per tunti). Vapaiden tonttipalikoiden määrää voi tarkkailla komennolla `/claimblocks`.
 
 ## Tontin luonti
 
