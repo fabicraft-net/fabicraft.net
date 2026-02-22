@@ -16,3 +16,21 @@
       --sl-color-asides-border: var(--sl-color-text-accent);
       background-color: var(--sl-color-gray-6);
 }
+
+.starlight-aside--note {
+      --sl-color-asides-text-accent: #4ade80;
+      --sl-color-asides-border: #4ade80;
+      background-color: var(--sl-color-gray-6);
+}
+
+.starlight-aside--caution {
+      --sl-color-asides-text-accent: #facc15;
+      --sl-color-asides-border: #facc15;
+      background-color: var(--sl-color-gray-6);
+}
+
+.starlight-aside--danger {
+      --sl-color-asides-text-accent: #ef4444;
+      --sl-color-asides-border: #ef4444;
+      background-color: var(--sl-color-gray-6);
+}
