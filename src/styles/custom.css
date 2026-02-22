@@ -10,3 +10,9 @@
 .site-title img {
     image-rendering: pixelated;
 }
+
+.starlight-aside--tip {
+      --sl-color-asides-text-accent: var(--sl-color-text-accent);
+      --sl-color-asides-border: var(--sl-color-text-accent);
+      background-color: var(--sl-color-gray-6);
+}
