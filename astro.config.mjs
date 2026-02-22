@@ -21,6 +21,12 @@ export default defineConfig({
           }
         }
       ],
+      locales: {
+        root: {
+          label: 'Suomi',
+          lang: 'fi-FI',
+        },
+      },
 			social: [
 			  { icon: 'discord', label: 'Discord', href: 'https://discord.gg/TJyAWjztUD' },
 			  { icon: 'github', label: 'GitHub', href: 'https://github.com/fabicraftnet' }
