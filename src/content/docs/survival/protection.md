@@ -120,8 +120,17 @@ Esim. `/accessortrust  @<ryhmä>`
 
 Tontin oikeudellisia ryhmiä ja pelaajia saa tutkittua komennolla `/claiminfo`.
 
+## Kulku tontille
+Muiden pelaajien pääsyä tontille on mahdollista rajoittaa tekemällä tontista yksityisen tai antamalla porttikieltoja pelaajille.
 
-## Porttikiellot
-Voit estää pelaajien tulemista tontille komenolla `/claimprivate`. Tällöin vain pelaajat joille on myönnetty oikeuksia voivat astua tontille.
+### Yksityisyys
+Tontista voi tehdä yksityisen komennolla `/claimprivate`, jolloin vain pelaajat joille on myönnetty oikeuksia voivat astua tontille.
+Saat muutettua tontin takaisin julkiseksi ajamalla komennon `/claimprivate` uudelleen.
 
-vaihtoehtoisesti voit antaa tietylle pelaajatte porttikiellon komennolla `/claimban ban <pelaaja>`. Porttikiellon saaneet pelaajat näkyvät komennolla `/claimban list`. Pelaajia saa päästettyä takaisin tontille komennolla `/claimban unban <pelaaja>`.
+### Porttikiellot
+
+| Komento | Kuvaus |
+| --- | --- |
+| `/claimban ban <pelaaja>` | Antaa pelaajalle porttikiellon tontille
+| `/claimban unban <pelaaja>` | Poistaa porttikiellon pelaajalta
+| `/claimban list` | Listaa kaikki pelaajat, jolla on porttikielto tontille

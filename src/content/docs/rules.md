@@ -21,7 +21,7 @@ description: Palvelimen säännöt.
 Mikäli moderaattori pyytää sinua lopettamaan jonkinlaisen toiminnan, kannattaa heitä kuunnella!
 Näin vältät porttikiellot ja muut rangaistukset :)
 
-Jos epäröit onko jokin asia oikein tai väärin, niin kysy moderaattorilta!
+Jos epäröit, onko jokin asia oikein tai väärin, niin kysy moderaattorilta!
 :::
 
 ## Modit ja clientit
