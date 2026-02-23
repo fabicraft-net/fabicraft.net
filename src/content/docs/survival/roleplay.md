@@ -4,13 +4,16 @@ description: Ohjeet roolipelaukseen survivalissa
 ---
 
 Voit ottaa roolipeliominaisuudet käyttöön komennolla `/rp`.
+Poistaaksesi roolipeliominaisuudet käytöstä aja sama komento uudelleen!
 
 ## Roolipelichat
-Roolipelichat näkyy kaikille 100 palikan säteellä, jos he ovat ottaneet itselleen roolipelauksen käyttöön.
+Roolipelichat näkyy **100 palikan säteellä** oleville pelaajille, jos he ovat ottaneet itselleen roolipelauksen käyttöön.
 Kirjoitus chattiin onnistuu komennolla `/rpchat <viesti>`.
 
+![rpchat](../../../assets/docs/survival/rpchat.png)
+
 ## Lempinimi
-Lempinimi on roolipelichatissa näkyvä nimi.
+Lempinimi eli "nickname" on roolipelichatissa näkyvä nimi.
 
 ### Komennot
 Komento | Kuvaus
