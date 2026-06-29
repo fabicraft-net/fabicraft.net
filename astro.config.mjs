@@ -36,7 +36,7 @@ export default defineConfig({
 				{ slug: 'how-to-join' },
 				{
 					label: 'Survival',
-					autogenerate: { directory: 'survival' }
+					items: [{ autogenerate: { directory: 'survival' } }],
 				}
 			],
 			customCss: [

@@ -10,11 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "0.38.x",
-    "astro": "6.1.x",
-    "sharp": "0.34.x"
+    "@astrojs/starlight": "0.41.1",
+    "astro": "7.0.x",
+    "sharp": "0.35.x"
   },
   "devDependencies": {
-    "wrangler": "4.83.x"
+    "wrangler": "4.105.x"
   }
 }
