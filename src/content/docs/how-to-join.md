@@ -1,6 +1,8 @@
 ---
 title: Palvelimelle liittyminen
 description: Kuinka pääset mukaan pelaamaan!
+sidebar:
+  order: 2
 ---
 
 Pelataksesi FabiCraftissa tarvitset Minecraftin Java-version. Tämä tarkoittaa siis käytännössä sitä, että puhelimella/konsolilla ei siis pääse palvelimelle.

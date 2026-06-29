@@ -1,12 +1,14 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightAutoSidebar from 'starlight-auto-sidebar'
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://fabicraft.net',
 	integrations: [
-		starlight({
+    starlight({
+      plugins: [starlightAutoSidebar()],
 			title: 'FabiCraft',
 			logo: {
 			  src: './src/assets/logo.png'
@@ -30,14 +32,6 @@ export default defineConfig({
 			social: [
 			  { icon: 'discord', label: 'Discord', href: 'https://discord.gg/TJyAWjztUD' },
 			  { icon: 'github', label: 'GitHub', href: 'https://github.com/fabicraftnet' }
-			],
-			sidebar: [
-			  { slug: 'rules' },
-				{ slug: 'how-to-join' },
-				{
-					label: 'Survival',
-					items: [{ autogenerate: { directory: 'survival' } }],
-				}
 			],
 			customCss: [
         // Relative path to your custom CSS file

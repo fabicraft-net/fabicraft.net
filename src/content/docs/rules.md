@@ -1,6 +1,8 @@
 ---
 title: Säännöt
 description: Palvelimen säännöt.
+sidebar:
+  order: 1
 ---
 
 ## Yleiset säännöt
