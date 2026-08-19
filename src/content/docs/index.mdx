@@ -18,11 +18,21 @@ sidebar:
   hidden: true
 ---
 import SplashBackgroundImage from '../../components/SplashBackgroundImage.astro';
-import { LinkCard } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 <SplashBackgroundImage/>
 
-<div class="split">
+<div class="section">
+  <h1>Pelimuodot</h1>
+  <p>Edes jotain tekemistä pelastamaan tylsät vapaapäivät :D</p>
+  <CardGrid>
+    <LinkCard title="Creative" href="/creative/general/" description="Rakenna maailmoja ja koodaa omia pelimuotoja muiden pelattavaksi" />
+    <LinkCard title="Survival" href="/survival/protection/" description="Klassinen survival-kokemus pienillä lisämausteilla" />
+    <LinkCard title="Punkkasota" href="/bedwars/" description="Tuhoa vihollisen punkka gigajöllitakulla ja näytä kenellä onkaan palvelimen parhaimmat unenlahjat" />
+  </CardGrid>
+</div>
+
+<div class="section split">
   <div class="full">
     <h1>Hae mukaan ylläpitoon 🧹</h1>
     <p>FabiCraft pyörii täysin <s>orja</s> vapaaehtoistyöllä. Kaikilta hakijoilta vaaditaan ensisijaisesti ikää vähintään 16 vuotta. Yhteydenotto tapahtuu Discordin välityksellä, mutta huomaathan, että

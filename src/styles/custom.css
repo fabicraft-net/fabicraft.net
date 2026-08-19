@@ -54,6 +54,10 @@
       background-color: var(--sl-color-gray-6);
 }
 
+.section {
+    padding-bottom: 8rem;
+}
+
 @media(min-width: 48rem) {
     .split {
         display: flex;
